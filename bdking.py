@@ -48,12 +48,20 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
+\033[0;39m
+\033[0;39m
+\033[0;39m
+\033[0;39m
 \033[0;39mB̸̡̬̌ͅD̶̞̘̣̥͓̳́͗̓́̚͜ͅh̵͔̲̣͚̲̐͝a̸̛͎͙̘͑̑̇͛C̵̬̣͔̯̭̫̬͕̉̀̈̆̉͑̀k̸͓͑̈́̊͋͆͊̿̕͘͝ͅe̸̦̩͓̽͐͆̀̄͛̾́͐̕ŗ̸̛̛̗̖̘͙̞̻̈͋̈́͑̏͜͝s̴̨̯̳̪̩̙͓͕͔̉̍͊͗̽̈
 \033[0;39m
-\033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
+\033[0;39m
+\033[0;39m
+
+
+\033[0;39m\033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
 \033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mBDhaCkers\033[0;31m║
 \033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/BDhaCkers\033[0m \033[0;31m║
-\033[0;39m║\033[0;36m* \033[0;32 \033[1;32m: \033[1;32m0308-7861-7861\033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;32 \033[1;32m: \033[1;32m\033[0;31m║
 \033[0;34m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 
 def tik():
@@ -75,7 +83,7 @@ os.system("clear")
 print "\x1b[0;31m⚔═══════════════════════════☠═══════════════════════════⚔"
 print  """\x1b[0;31m [¤] \x1b[0;31mASSALAMU ALAIKUM\x1b[0;31m  \033[1;96m   [¤] \x1b[0;31mAuthor : BDhaCkers\x1b[1;96m  
 \033[1;93m [¤] \x1b[0;31mSTAY HOME\x1b[1;96m      [¤] \x1b[0;31mFACEBOOK : https://www.facebook.com/hafezmustakimahmed \x1b[1;96m  
-\033[1;93m [¤] \x1b[0;31mTOOLS BY BDhackers\x1b[1;96m  [¤] \x1b[0;31ms\x1b[0;31m"""
+\033[1;93m [¤] \x1b[0;31mTOOLS BY BDhackers\x1b[1;96m  
 print " \x1b[1;93m⚔══════════════════════════☠═══════════════════════════⚔"
 
 CorrectUsername = "BM"
@@ -83,9 +91,9 @@ CorrectPassword = "BM"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLS INI \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME OF TOOL \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD TOOLS INI \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD  OF TOOLS  \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
